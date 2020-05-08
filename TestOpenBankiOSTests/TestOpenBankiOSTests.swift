@@ -1,10 +1,4 @@
-//
-//  TestOpenBankiOSTests.swift
-//  TestOpenBankiOSTests
-//
-//  Created by Alejandro Ruiz Ponce on 08/05/2020.
-//  Copyright © 2020 Alejandro Ruiz Ponce. All rights reserved.
-//
+
 
 import XCTest
 @testable import TestOpenBankiOS
