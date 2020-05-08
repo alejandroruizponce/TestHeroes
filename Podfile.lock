@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireNetworkActivityIndicator (2.4.0):
+    - Alamofire (~> 4.8)
+  - AlamofireNetworkActivityLogger (2.4.0):
+    - Alamofire (~> 4.8)
+  - Nuke (8.4.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9)
+  - AlamofireNetworkActivityIndicator (~> 2.4)
+  - AlamofireNetworkActivityLogger (~> 2.4)
+  - Nuke
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - AlamofireNetworkActivityLogger
+    - Nuke
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireNetworkActivityIndicator: 9acc3de3ca6645bf0efed462396b0df13dd3e7b8
+  AlamofireNetworkActivityLogger: 6d3398c692d2c5d83b0c58793537860aca1e383d
+  Nuke: d780e3507a86b86c589ab3cc5cd302d5456f06fb
+
+PODFILE CHECKSUM: 969bd6771b43eb8d43a3a8dfcd4d09a7e0023378
+
+COCOAPODS: 1.8.4

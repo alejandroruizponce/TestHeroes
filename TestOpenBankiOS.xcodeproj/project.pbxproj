@@ -1,0 +1,1109 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5519399F2465562500F43FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5519399E2465562500F43FB3 /* Assets.xcassets */; };
+		551939A22465562500F43FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551939A02465562500F43FB3 /* LaunchScreen.storyboard */; };
+		551939AD2465562500F43FB3 /* TestOpenBankiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551939AC2465562500F43FB3 /* TestOpenBankiOSTests.swift */; };
+		551939C92465587900F43FB3 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939BC2465587900F43FB3 /* OpenSans-SemiBold.ttf */; };
+		551939CA2465587900F43FB3 /* OpenSans-CondLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939BD2465587900F43FB3 /* OpenSans-CondLightItalic.ttf */; };
+		551939CB2465587900F43FB3 /* OpenSans-CondLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939BE2465587900F43FB3 /* OpenSans-CondLight.ttf */; };
+		551939CC2465587900F43FB3 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939BF2465587900F43FB3 /* OpenSans-Light.ttf */; };
+		551939CD2465587900F43FB3 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939C02465587900F43FB3 /* OpenSans-Italic.ttf */; };
+		551939CE2465587900F43FB3 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939C12465587900F43FB3 /* OpenSans-ExtraBold.ttf */; };
+		551939CF2465587900F43FB3 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939C22465587900F43FB3 /* OpenSans-LightItalic.ttf */; };
+		551939D02465587900F43FB3 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939C32465587900F43FB3 /* OpenSans-Bold.ttf */; };
+		551939D12465587900F43FB3 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939C42465587900F43FB3 /* OpenSans-SemiBoldItalic.ttf */; };
+		551939D22465587900F43FB3 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939C52465587900F43FB3 /* OpenSans-ExtraBoldItalic.ttf */; };
+		551939D32465587900F43FB3 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939C62465587900F43FB3 /* OpenSans-Regular.ttf */; };
+		551939D42465587900F43FB3 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939C72465587900F43FB3 /* OpenSans-BoldItalic.ttf */; };
+		551939D52465587900F43FB3 /* OpenSans-CondBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 551939C82465587900F43FB3 /* OpenSans-CondBold.ttf */; };
+		551939D8246558B200F43FB3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 551939D7246558B200F43FB3 /* Localizable.strings */; };
+		551939E1246559A300F43FB3 /* AppDependenciesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551939DD246559A300F43FB3 /* AppDependenciesService.swift */; };
+		551939E2246559A300F43FB3 /* AppInitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551939DE246559A300F43FB3 /* AppInitService.swift */; };
+		551939E3246559A300F43FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551939DF246559A300F43FB3 /* AppDelegate.swift */; };
+		55193AAF24655A4A00F43FB3 /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A3D24655A4900F43FB3 /* R.swift */; };
+		55193AB924655A4A00F43FB3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A4A24655A4900F43FB3 /* NetworkManager.swift */; };
+		55193ABA24655A4A00F43FB3 /* RouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A4C24655A4900F43FB3 /* RouterImpl.swift */; };
+		55193ABB24655A4A00F43FB3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A4D24655A4900F43FB3 /* Router.swift */; };
+		55193ABC24655A4A00F43FB3 /* AppModules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A4E24655A4900F43FB3 /* AppModules.swift */; };
+		55193ABF24655A4A00F43FB3 /* HandleResponderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A5524655A4900F43FB3 /* HandleResponderProtocol.swift */; };
+		55193AC024655A4A00F43FB3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A5624655A4900F43FB3 /* BaseView.swift */; };
+		55193AC124655A4A00F43FB3 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A5824655A4900F43FB3 /* BasePresenter.swift */; };
+		55193AC224655A4A00F43FB3 /* XibInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A5A24655A4900F43FB3 /* XibInstantiatable.swift */; };
+		55193AC624655A4A00F43FB3 /* Definiciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A6024655A4A00F43FB3 /* Definiciones.swift */; };
+		55193AC724655A4A00F43FB3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A6224655A4A00F43FB3 /* BaseViewController.swift */; };
+		55193AC824655A4A00F43FB3 /* BaseAppdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A6424655A4A00F43FB3 /* BaseAppdelegate.swift */; };
+		55193AC924655A4A00F43FB3 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A6624655A4A00F43FB3 /* BaseInteractor.swift */; };
+		55193ACE24655A4A00F43FB3 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A6D24655A4A00F43FB3 /* BaseRouter.swift */; };
+		55193ACF24655A4A00F43FB3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193A6F24655A4A00F43FB3 /* Constants.swift */; };
+		55193AE22465622500F43FB3 /* HeroesScreenInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193AD62465622500F43FB3 /* HeroesScreenInteractorImpl.swift */; };
+		55193AE32465622500F43FB3 /* HeroesScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193AD82465622500F43FB3 /* HeroesScreenConfigurator.swift */; };
+		55193AE42465622500F43FB3 /* HeroesScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193ADA2465622500F43FB3 /* HeroesScreenProtocols.swift */; };
+		55193AE52465622500F43FB3 /* HeroesScreenPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193ADC2465622500F43FB3 /* HeroesScreenPresenterImpl.swift */; };
+		55193AE62465622500F43FB3 /* HeroesScreenRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193ADE2465622500F43FB3 /* HeroesScreenRouterImpl.swift */; };
+		55193AE72465622500F43FB3 /* HeroesScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193AE02465622500F43FB3 /* HeroesScreenViewController.swift */; };
+		55193AE82465622500F43FB3 /* HeroesScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55193AE12465622500F43FB3 /* HeroesScreenView.xib */; };
+		55193AEA2465652A00F43FB3 /* MarvelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193AE92465652A00F43FB3 /* MarvelAPI.swift */; };
+		55193AED2465659C00F43FB3 /* MarvelResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55193AEC2465659C00F43FB3 /* MarvelResources.plist */; };
+		55193AF124656D0F00F43FB3 /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193AEF24656D0F00F43FB3 /* HeroTableViewCell.swift */; };
+		55193AF224656D0F00F43FB3 /* HeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55193AF024656D0F00F43FB3 /* HeroTableViewCell.xib */; };
+		55193AF524656F4300F43FB3 /* NameIdentificable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193AF424656F4300F43FB3 /* NameIdentificable.swift */; };
+		55193AF82465827500F43FB3 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193AF72465827500F43FB3 /* Hero.swift */; };
+		55193B092465B01000F43FB3 /* HeroesDetailScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193AFD2465B01000F43FB3 /* HeroesDetailScreenProtocols.swift */; };
+		55193B0A2465B01000F43FB3 /* HeroesDetailScreenPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193AFF2465B01000F43FB3 /* HeroesDetailScreenPresenterImpl.swift */; };
+		55193B0B2465B01000F43FB3 /* HeroesDetailScreenInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193B012465B01000F43FB3 /* HeroesDetailScreenInteractorImpl.swift */; };
+		55193B0C2465B01000F43FB3 /* HeroesDetailScreenRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193B032465B01000F43FB3 /* HeroesDetailScreenRouterImpl.swift */; };
+		55193B0D2465B01000F43FB3 /* HeroesDetailScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193B052465B01000F43FB3 /* HeroesDetailScreenConfigurator.swift */; };
+		55193B0E2465B01000F43FB3 /* HeroesDetailScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55193B072465B01000F43FB3 /* HeroesDetailScreenViewController.swift */; };
+		55193B0F2465B01000F43FB3 /* HeroesDetailScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55193B082465B01000F43FB3 /* HeroesDetailScreenView.xib */; };
+		E0EB64332FE39AD0F97D49CF /* Pods_TestOpenBankiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5E54D8FB044DC576E95C84 /* Pods_TestOpenBankiOSTests.framework */; };
+		E4DB5145397B553EAFAFE237 /* Pods_TestOpenBankiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206F1D6A266A5FD29E90BE7A /* Pods_TestOpenBankiOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		551939A92465562500F43FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5519398A2465562400F43FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 551939912465562400F43FB3;
+			remoteInfo = TestOpenBankiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		206F1D6A266A5FD29E90BE7A /* Pods_TestOpenBankiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestOpenBankiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7A05C2ACB50D1AD1FC0E84 /* Pods-TestOpenBankiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOpenBankiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TestOpenBankiOSTests/Pods-TestOpenBankiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		551939922465562400F43FB3 /* TestOpenBankiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOpenBankiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5519399E2465562500F43FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		551939A12465562500F43FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		551939A32465562500F43FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551939A82465562500F43FB3 /* TestOpenBankiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOpenBankiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		551939AC2465562500F43FB3 /* TestOpenBankiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOpenBankiOSTests.swift; sourceTree = "<group>"; };
+		551939AE2465562500F43FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551939BC2465587900F43FB3 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		551939BD2465587900F43FB3 /* OpenSans-CondLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondLightItalic.ttf"; sourceTree = "<group>"; };
+		551939BE2465587900F43FB3 /* OpenSans-CondLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondLight.ttf"; sourceTree = "<group>"; };
+		551939BF2465587900F43FB3 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		551939C02465587900F43FB3 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		551939C12465587900F43FB3 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		551939C22465587900F43FB3 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		551939C32465587900F43FB3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		551939C42465587900F43FB3 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		551939C52465587900F43FB3 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		551939C62465587900F43FB3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		551939C72465587900F43FB3 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		551939C82465587900F43FB3 /* OpenSans-CondBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondBold.ttf"; sourceTree = "<group>"; };
+		551939D7246558B200F43FB3 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		551939DD246559A300F43FB3 /* AppDependenciesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependenciesService.swift; sourceTree = "<group>"; };
+		551939DE246559A300F43FB3 /* AppInitService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInitService.swift; sourceTree = "<group>"; };
+		551939DF246559A300F43FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55193A3D24655A4900F43FB3 /* R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
+		55193A4A24655A4900F43FB3 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		55193A4C24655A4900F43FB3 /* RouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterImpl.swift; sourceTree = "<group>"; };
+		55193A4D24655A4900F43FB3 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		55193A4E24655A4900F43FB3 /* AppModules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModules.swift; sourceTree = "<group>"; };
+		55193A5524655A4900F43FB3 /* HandleResponderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleResponderProtocol.swift; sourceTree = "<group>"; };
+		55193A5624655A4900F43FB3 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		55193A5824655A4900F43FB3 /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		55193A5A24655A4900F43FB3 /* XibInstantiatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibInstantiatable.swift; sourceTree = "<group>"; };
+		55193A6024655A4A00F43FB3 /* Definiciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definiciones.swift; sourceTree = "<group>"; };
+		55193A6224655A4A00F43FB3 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		55193A6424655A4A00F43FB3 /* BaseAppdelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAppdelegate.swift; sourceTree = "<group>"; };
+		55193A6624655A4A00F43FB3 /* BaseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		55193A6D24655A4A00F43FB3 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		55193A6F24655A4A00F43FB3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		55193AD62465622500F43FB3 /* HeroesScreenInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesScreenInteractorImpl.swift; sourceTree = "<group>"; };
+		55193AD82465622500F43FB3 /* HeroesScreenConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesScreenConfigurator.swift; sourceTree = "<group>"; };
+		55193ADA2465622500F43FB3 /* HeroesScreenProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesScreenProtocols.swift; sourceTree = "<group>"; };
+		55193ADC2465622500F43FB3 /* HeroesScreenPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesScreenPresenterImpl.swift; sourceTree = "<group>"; };
+		55193ADE2465622500F43FB3 /* HeroesScreenRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesScreenRouterImpl.swift; sourceTree = "<group>"; };
+		55193AE02465622500F43FB3 /* HeroesScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesScreenViewController.swift; sourceTree = "<group>"; };
+		55193AE12465622500F43FB3 /* HeroesScreenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroesScreenView.xib; sourceTree = "<group>"; };
+		55193AE92465652A00F43FB3 /* MarvelAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarvelAPI.swift; sourceTree = "<group>"; };
+		55193AEC2465659C00F43FB3 /* MarvelResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MarvelResources.plist; sourceTree = "<group>"; };
+		55193AEF24656D0F00F43FB3 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
+		55193AF024656D0F00F43FB3 /* HeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroTableViewCell.xib; sourceTree = "<group>"; };
+		55193AF424656F4300F43FB3 /* NameIdentificable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NameIdentificable.swift; path = TestOpenBankiOS/Source/NameIdentificable.swift; sourceTree = SOURCE_ROOT; };
+		55193AF72465827500F43FB3 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		55193AFD2465B01000F43FB3 /* HeroesDetailScreenProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesDetailScreenProtocols.swift; sourceTree = "<group>"; };
+		55193AFF2465B01000F43FB3 /* HeroesDetailScreenPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesDetailScreenPresenterImpl.swift; sourceTree = "<group>"; };
+		55193B012465B01000F43FB3 /* HeroesDetailScreenInteractorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesDetailScreenInteractorImpl.swift; sourceTree = "<group>"; };
+		55193B032465B01000F43FB3 /* HeroesDetailScreenRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesDetailScreenRouterImpl.swift; sourceTree = "<group>"; };
+		55193B052465B01000F43FB3 /* HeroesDetailScreenConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesDetailScreenConfigurator.swift; sourceTree = "<group>"; };
+		55193B072465B01000F43FB3 /* HeroesDetailScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesDetailScreenViewController.swift; sourceTree = "<group>"; };
+		55193B082465B01000F43FB3 /* HeroesDetailScreenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroesDetailScreenView.xib; sourceTree = "<group>"; };
+		6EEE2B1B8F6BD9DCD1B64790 /* Pods-TestOpenBankiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOpenBankiOS.debug.xcconfig"; path = "Target Support Files/Pods-TestOpenBankiOS/Pods-TestOpenBankiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8D7804B51750546548533D82 /* Pods-TestOpenBankiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOpenBankiOS.release.xcconfig"; path = "Target Support Files/Pods-TestOpenBankiOS/Pods-TestOpenBankiOS.release.xcconfig"; sourceTree = "<group>"; };
+		BB5E54D8FB044DC576E95C84 /* Pods_TestOpenBankiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestOpenBankiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BCEA9284D14140AD102847 /* Pods-TestOpenBankiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestOpenBankiOSTests.release.xcconfig"; path = "Target Support Files/Pods-TestOpenBankiOSTests/Pods-TestOpenBankiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5519398F2465562400F43FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DB5145397B553EAFAFE237 /* Pods_TestOpenBankiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551939A52465562500F43FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EB64332FE39AD0F97D49CF /* Pods_TestOpenBankiOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2403ECD8CCE52D2150510CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EEE2B1B8F6BD9DCD1B64790 /* Pods-TestOpenBankiOS.debug.xcconfig */,
+				8D7804B51750546548533D82 /* Pods-TestOpenBankiOS.release.xcconfig */,
+				2A7A05C2ACB50D1AD1FC0E84 /* Pods-TestOpenBankiOSTests.debug.xcconfig */,
+				D6BCEA9284D14140AD102847 /* Pods-TestOpenBankiOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		551939892465562400F43FB3 = {
+			isa = PBXGroup;
+			children = (
+				551939942465562400F43FB3 /* TestOpenBankiOS */,
+				551939AB2465562500F43FB3 /* TestOpenBankiOSTests */,
+				551939932465562400F43FB3 /* Products */,
+				2403ECD8CCE52D2150510CAC /* Pods */,
+				F056565BC6F68A4863D1344C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		551939932465562400F43FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				551939922465562400F43FB3 /* TestOpenBankiOS.app */,
+				551939A82465562500F43FB3 /* TestOpenBankiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		551939942465562400F43FB3 /* TestOpenBankiOS */ = {
+			isa = PBXGroup;
+			children = (
+				55193AEB2465658700F43FB3 /* SupportingFiles */,
+				551939B82465584200F43FB3 /* Resources */,
+				55193AD124655B1C00F43FB3 /* DataManager */,
+				551939E4246559F800F43FB3 /* Source */,
+				551939DA246558DD00F43FB3 /* Features */,
+				551939A32465562500F43FB3 /* Info.plist */,
+			);
+			path = TestOpenBankiOS;
+			sourceTree = "<group>";
+		};
+		551939AB2465562500F43FB3 /* TestOpenBankiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				551939AC2465562500F43FB3 /* TestOpenBankiOSTests.swift */,
+				551939AE2465562500F43FB3 /* Info.plist */,
+			);
+			path = TestOpenBankiOSTests;
+			sourceTree = "<group>";
+		};
+		551939B82465584200F43FB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				551939D9246558B600F43FB3 /* Artwork */,
+				551939D62465587F00F43FB3 /* Strings */,
+				551939BA2465585500F43FB3 /* Fonts */,
+				551939B92465584A00F43FB3 /* LaunchScreen */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		551939B92465584A00F43FB3 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				551939A02465562500F43FB3 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		551939BA2465585500F43FB3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				551939BB2465587900F43FB3 /* OpenSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		551939BB2465587900F43FB3 /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				551939BC2465587900F43FB3 /* OpenSans-SemiBold.ttf */,
+				551939BD2465587900F43FB3 /* OpenSans-CondLightItalic.ttf */,
+				551939BE2465587900F43FB3 /* OpenSans-CondLight.ttf */,
+				551939BF2465587900F43FB3 /* OpenSans-Light.ttf */,
+				551939C02465587900F43FB3 /* OpenSans-Italic.ttf */,
+				551939C12465587900F43FB3 /* OpenSans-ExtraBold.ttf */,
+				551939C22465587900F43FB3 /* OpenSans-LightItalic.ttf */,
+				551939C32465587900F43FB3 /* OpenSans-Bold.ttf */,
+				551939C42465587900F43FB3 /* OpenSans-SemiBoldItalic.ttf */,
+				551939C52465587900F43FB3 /* OpenSans-ExtraBoldItalic.ttf */,
+				551939C62465587900F43FB3 /* OpenSans-Regular.ttf */,
+				551939C72465587900F43FB3 /* OpenSans-BoldItalic.ttf */,
+				551939C82465587900F43FB3 /* OpenSans-CondBold.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
+		551939D62465587F00F43FB3 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				551939D7246558B200F43FB3 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		551939D9246558B600F43FB3 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				5519399E2465562500F43FB3 /* Assets.xcassets */,
+			);
+			path = Artwork;
+			sourceTree = "<group>";
+		};
+		551939DA246558DD00F43FB3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				55193AD324655FA800F43FB3 /* MarvelFunnel */,
+				551939DB246558FF00F43FB3 /* AppInit */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		551939DB246558FF00F43FB3 /* AppInit */ = {
+			isa = PBXGroup;
+			children = (
+				551939DF246559A300F43FB3 /* AppDelegate.swift */,
+				551939DD246559A300F43FB3 /* AppDependenciesService.swift */,
+				551939DE246559A300F43FB3 /* AppInitService.swift */,
+			);
+			path = AppInit;
+			sourceTree = "<group>";
+		};
+		551939E4246559F800F43FB3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				55193AF62465826500F43FB3 /* Models */,
+				551939E524655A0100F43FB3 /* Commons */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		551939E524655A0100F43FB3 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				55193A4F24655A4900F43FB3 /* BaseComponents */,
+				55193A6E24655A4A00F43FB3 /* Constants */,
+				551939E624655A4900F43FB3 /* Extensions */,
+				55193A4924655A4900F43FB3 /* Network */,
+				55193A4B24655A4900F43FB3 /* Router */,
+				55193A3B24655A4900F43FB3 /* Utils */,
+				55193AF424656F4300F43FB3 /* NameIdentificable.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		551939E624655A4900F43FB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		55193A3B24655A4900F43FB3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				55193A3D24655A4900F43FB3 /* R.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		55193A4924655A4900F43FB3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				55193A4A24655A4900F43FB3 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		55193A4B24655A4900F43FB3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				55193A4C24655A4900F43FB3 /* RouterImpl.swift */,
+				55193A4D24655A4900F43FB3 /* Router.swift */,
+				55193A4E24655A4900F43FB3 /* AppModules.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		55193A4F24655A4900F43FB3 /* BaseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				55193A5424655A4900F43FB3 /* BaseView */,
+				55193A5724655A4900F43FB3 /* Presenter */,
+				55193A5924655A4900F43FB3 /* Custom View */,
+				55193A6024655A4A00F43FB3 /* Definiciones.swift */,
+				55193A6124655A4A00F43FB3 /* View */,
+				55193A6324655A4A00F43FB3 /* Appdelegate */,
+				55193A6524655A4A00F43FB3 /* Interactor */,
+				55193A6C24655A4A00F43FB3 /* Router */,
+			);
+			path = BaseComponents;
+			sourceTree = "<group>";
+		};
+		55193A5424655A4900F43FB3 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				55193A5524655A4900F43FB3 /* HandleResponderProtocol.swift */,
+				55193A5624655A4900F43FB3 /* BaseView.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		55193A5724655A4900F43FB3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				55193A5824655A4900F43FB3 /* BasePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		55193A5924655A4900F43FB3 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				55193A5A24655A4900F43FB3 /* XibInstantiatable.swift */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		55193A6124655A4A00F43FB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55193A6224655A4A00F43FB3 /* BaseViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55193A6324655A4A00F43FB3 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				55193A6424655A4A00F43FB3 /* BaseAppdelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		55193A6524655A4A00F43FB3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				55193A6624655A4A00F43FB3 /* BaseInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		55193A6C24655A4A00F43FB3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				55193A6D24655A4A00F43FB3 /* BaseRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		55193A6E24655A4A00F43FB3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				55193A6F24655A4A00F43FB3 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		55193AD124655B1C00F43FB3 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				55193AD224655B2500F43FB3 /* API */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		55193AD224655B2500F43FB3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				55193AE92465652A00F43FB3 /* MarvelAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		55193AD324655FA800F43FB3 /* MarvelFunnel */ = {
+			isa = PBXGroup;
+			children = (
+				55193AFB2465AFB700F43FB3 /* HeroesDetail */,
+				55193AD42465602200F43FB3 /* Heroes */,
+			);
+			path = MarvelFunnel;
+			sourceTree = "<group>";
+		};
+		55193AD42465602200F43FB3 /* Heroes */ = {
+			isa = PBXGroup;
+			children = (
+				55193AD72465622500F43FB3 /* Configurator */,
+				55193AD52465622500F43FB3 /* Interactor */,
+				55193ADB2465622500F43FB3 /* Presenter */,
+				55193AD92465622500F43FB3 /* Protocols */,
+				55193ADD2465622500F43FB3 /* Router */,
+				55193ADF2465622500F43FB3 /* View */,
+			);
+			path = Heroes;
+			sourceTree = "<group>";
+		};
+		55193AD52465622500F43FB3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				55193AD62465622500F43FB3 /* HeroesScreenInteractorImpl.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		55193AD72465622500F43FB3 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				55193AD82465622500F43FB3 /* HeroesScreenConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		55193AD92465622500F43FB3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				55193ADA2465622500F43FB3 /* HeroesScreenProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		55193ADB2465622500F43FB3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				55193ADC2465622500F43FB3 /* HeroesScreenPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		55193ADD2465622500F43FB3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				55193ADE2465622500F43FB3 /* HeroesScreenRouterImpl.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		55193ADF2465622500F43FB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55193AEE24656C2D00F43FB3 /* Cell */,
+				55193AE02465622500F43FB3 /* HeroesScreenViewController.swift */,
+				55193AE12465622500F43FB3 /* HeroesScreenView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55193AEB2465658700F43FB3 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				55193AEC2465659C00F43FB3 /* MarvelResources.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		55193AEE24656C2D00F43FB3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				55193AEF24656D0F00F43FB3 /* HeroTableViewCell.swift */,
+				55193AF024656D0F00F43FB3 /* HeroTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		55193AF62465826500F43FB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55193AF72465827500F43FB3 /* Hero.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55193AFB2465AFB700F43FB3 /* HeroesDetail */ = {
+			isa = PBXGroup;
+			children = (
+				55193B042465B01000F43FB3 /* Configurator */,
+				55193B002465B01000F43FB3 /* Interactor */,
+				55193AFE2465B01000F43FB3 /* Presenter */,
+				55193AFC2465B01000F43FB3 /* Protocols */,
+				55193B022465B01000F43FB3 /* Router */,
+				55193B062465B01000F43FB3 /* View */,
+			);
+			path = HeroesDetail;
+			sourceTree = "<group>";
+		};
+		55193AFC2465B01000F43FB3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				55193AFD2465B01000F43FB3 /* HeroesDetailScreenProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		55193AFE2465B01000F43FB3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				55193AFF2465B01000F43FB3 /* HeroesDetailScreenPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		55193B002465B01000F43FB3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				55193B012465B01000F43FB3 /* HeroesDetailScreenInteractorImpl.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		55193B022465B01000F43FB3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				55193B032465B01000F43FB3 /* HeroesDetailScreenRouterImpl.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		55193B042465B01000F43FB3 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				55193B052465B01000F43FB3 /* HeroesDetailScreenConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		55193B062465B01000F43FB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55193B072465B01000F43FB3 /* HeroesDetailScreenViewController.swift */,
+				55193B082465B01000F43FB3 /* HeroesDetailScreenView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F056565BC6F68A4863D1344C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				206F1D6A266A5FD29E90BE7A /* Pods_TestOpenBankiOS.framework */,
+				BB5E54D8FB044DC576E95C84 /* Pods_TestOpenBankiOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		551939912465562400F43FB3 /* TestOpenBankiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551939B12465562500F43FB3 /* Build configuration list for PBXNativeTarget "TestOpenBankiOS" */;
+			buildPhases = (
+				79CCF81EEE7A4EF01CC6C888 /* [CP] Check Pods Manifest.lock */,
+				5519398E2465562400F43FB3 /* Sources */,
+				5519398F2465562400F43FB3 /* Frameworks */,
+				551939902465562400F43FB3 /* Resources */,
+				C258395021C00E014655FADD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestOpenBankiOS;
+			productName = TestOpenBankiOS;
+			productReference = 551939922465562400F43FB3 /* TestOpenBankiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		551939A72465562500F43FB3 /* TestOpenBankiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551939B42465562500F43FB3 /* Build configuration list for PBXNativeTarget "TestOpenBankiOSTests" */;
+			buildPhases = (
+				ECE8B5B9C8AC7B970074A7B8 /* [CP] Check Pods Manifest.lock */,
+				551939A42465562500F43FB3 /* Sources */,
+				551939A52465562500F43FB3 /* Frameworks */,
+				551939A62465562500F43FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551939AA2465562500F43FB3 /* PBXTargetDependency */,
+			);
+			name = TestOpenBankiOSTests;
+			productName = TestOpenBankiOSTests;
+			productReference = 551939A82465562500F43FB3 /* TestOpenBankiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5519398A2465562400F43FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Alejandro Ruiz Ponce";
+				TargetAttributes = {
+					551939912465562400F43FB3 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+					551939A72465562500F43FB3 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 551939912465562400F43FB3;
+					};
+				};
+			};
+			buildConfigurationList = 5519398D2465562400F43FB3 /* Build configuration list for PBXProject "TestOpenBankiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 551939892465562400F43FB3;
+			productRefGroup = 551939932465562400F43FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				551939912465562400F43FB3 /* TestOpenBankiOS */,
+				551939A72465562500F43FB3 /* TestOpenBankiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		551939902465562400F43FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551939D8246558B200F43FB3 /* Localizable.strings in Resources */,
+				551939D12465587900F43FB3 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				55193AED2465659C00F43FB3 /* MarvelResources.plist in Resources */,
+				551939D02465587900F43FB3 /* OpenSans-Bold.ttf in Resources */,
+				551939C92465587900F43FB3 /* OpenSans-SemiBold.ttf in Resources */,
+				551939CD2465587900F43FB3 /* OpenSans-Italic.ttf in Resources */,
+				55193AE82465622500F43FB3 /* HeroesScreenView.xib in Resources */,
+				55193AF224656D0F00F43FB3 /* HeroTableViewCell.xib in Resources */,
+				551939CE2465587900F43FB3 /* OpenSans-ExtraBold.ttf in Resources */,
+				551939A22465562500F43FB3 /* LaunchScreen.storyboard in Resources */,
+				551939CF2465587900F43FB3 /* OpenSans-LightItalic.ttf in Resources */,
+				55193B0F2465B01000F43FB3 /* HeroesDetailScreenView.xib in Resources */,
+				551939CC2465587900F43FB3 /* OpenSans-Light.ttf in Resources */,
+				551939CB2465587900F43FB3 /* OpenSans-CondLight.ttf in Resources */,
+				551939D42465587900F43FB3 /* OpenSans-BoldItalic.ttf in Resources */,
+				551939D52465587900F43FB3 /* OpenSans-CondBold.ttf in Resources */,
+				551939D22465587900F43FB3 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				551939D32465587900F43FB3 /* OpenSans-Regular.ttf in Resources */,
+				5519399F2465562500F43FB3 /* Assets.xcassets in Resources */,
+				551939CA2465587900F43FB3 /* OpenSans-CondLightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551939A62465562500F43FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79CCF81EEE7A4EF01CC6C888 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestOpenBankiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C258395021C00E014655FADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestOpenBankiOS/Pods-TestOpenBankiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestOpenBankiOS/Pods-TestOpenBankiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestOpenBankiOS/Pods-TestOpenBankiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE8B5B9C8AC7B970074A7B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestOpenBankiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5519398E2465562400F43FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55193AB924655A4A00F43FB3 /* NetworkManager.swift in Sources */,
+				55193B0E2465B01000F43FB3 /* HeroesDetailScreenViewController.swift in Sources */,
+				55193AF124656D0F00F43FB3 /* HeroTableViewCell.swift in Sources */,
+				55193B0C2465B01000F43FB3 /* HeroesDetailScreenRouterImpl.swift in Sources */,
+				55193ABF24655A4A00F43FB3 /* HandleResponderProtocol.swift in Sources */,
+				55193ACE24655A4A00F43FB3 /* BaseRouter.swift in Sources */,
+				55193B092465B01000F43FB3 /* HeroesDetailScreenProtocols.swift in Sources */,
+				55193ABA24655A4A00F43FB3 /* RouterImpl.swift in Sources */,
+				55193AE52465622500F43FB3 /* HeroesScreenPresenterImpl.swift in Sources */,
+				55193B0B2465B01000F43FB3 /* HeroesDetailScreenInteractorImpl.swift in Sources */,
+				55193AC924655A4A00F43FB3 /* BaseInteractor.swift in Sources */,
+				55193ABB24655A4A00F43FB3 /* Router.swift in Sources */,
+				55193AE32465622500F43FB3 /* HeroesScreenConfigurator.swift in Sources */,
+				55193AEA2465652A00F43FB3 /* MarvelAPI.swift in Sources */,
+				55193AE72465622500F43FB3 /* HeroesScreenViewController.swift in Sources */,
+				55193AF82465827500F43FB3 /* Hero.swift in Sources */,
+				55193B0A2465B01000F43FB3 /* HeroesDetailScreenPresenterImpl.swift in Sources */,
+				55193AAF24655A4A00F43FB3 /* R.swift in Sources */,
+				55193AC224655A4A00F43FB3 /* XibInstantiatable.swift in Sources */,
+				55193B0D2465B01000F43FB3 /* HeroesDetailScreenConfigurator.swift in Sources */,
+				55193AC124655A4A00F43FB3 /* BasePresenter.swift in Sources */,
+				55193AE42465622500F43FB3 /* HeroesScreenProtocols.swift in Sources */,
+				55193AF524656F4300F43FB3 /* NameIdentificable.swift in Sources */,
+				55193ACF24655A4A00F43FB3 /* Constants.swift in Sources */,
+				551939E3246559A300F43FB3 /* AppDelegate.swift in Sources */,
+				55193AC724655A4A00F43FB3 /* BaseViewController.swift in Sources */,
+				55193AE22465622500F43FB3 /* HeroesScreenInteractorImpl.swift in Sources */,
+				55193AC824655A4A00F43FB3 /* BaseAppdelegate.swift in Sources */,
+				55193AC624655A4A00F43FB3 /* Definiciones.swift in Sources */,
+				551939E2246559A300F43FB3 /* AppInitService.swift in Sources */,
+				55193ABC24655A4A00F43FB3 /* AppModules.swift in Sources */,
+				55193AE62465622500F43FB3 /* HeroesScreenRouterImpl.swift in Sources */,
+				551939E1246559A300F43FB3 /* AppDependenciesService.swift in Sources */,
+				55193AC024655A4A00F43FB3 /* BaseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		551939A42465562500F43FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551939AD2465562500F43FB3 /* TestOpenBankiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		551939AA2465562500F43FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 551939912465562400F43FB3 /* TestOpenBankiOS */;
+			targetProxy = 551939A92465562500F43FB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		551939A02465562500F43FB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551939A12465562500F43FB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		551939AF2465562500F43FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		551939B02465562500F43FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551939B22465562500F43FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEE2B1B8F6BD9DCD1B64790 /* Pods-TestOpenBankiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64N9BLXXNA;
+				INFOPLIST_FILE = TestOpenBankiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TestOpenBankiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		551939B32465562500F43FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7804B51750546548533D82 /* Pods-TestOpenBankiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64N9BLXXNA;
+				INFOPLIST_FILE = TestOpenBankiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TestOpenBankiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		551939B52465562500F43FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7A05C2ACB50D1AD1FC0E84 /* Pods-TestOpenBankiOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64N9BLXXNA;
+				INFOPLIST_FILE = TestOpenBankiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TestOpenBankiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestOpenBankiOS.app/TestOpenBankiOS";
+			};
+			name = Debug;
+		};
+		551939B62465562500F43FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BCEA9284D14140AD102847 /* Pods-TestOpenBankiOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64N9BLXXNA;
+				INFOPLIST_FILE = TestOpenBankiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TestOpenBankiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestOpenBankiOS.app/TestOpenBankiOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5519398D2465562400F43FB3 /* Build configuration list for PBXProject "TestOpenBankiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551939AF2465562500F43FB3 /* Debug */,
+				551939B02465562500F43FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551939B12465562500F43FB3 /* Build configuration list for PBXNativeTarget "TestOpenBankiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551939B22465562500F43FB3 /* Debug */,
+				551939B32465562500F43FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551939B42465562500F43FB3 /* Build configuration list for PBXNativeTarget "TestOpenBankiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551939B52465562500F43FB3 /* Debug */,
+				551939B62465562500F43FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5519398A2465562400F43FB3 /* Project object */;
+}
