@@ -1,2 +1,2 @@
-# TestOpenBank
-Test project for work process. May 2020.
+# TestHeroes
+Test project May 2020.
